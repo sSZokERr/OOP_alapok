@@ -11,5 +11,6 @@ public class Main {
         System.out.println(p1);
         System.out.println(p2);
         System.out.printf("A(z) %s pont tavolsaga az origotol: %.3f",p3, p3.getTavolsagAzOrigotol());
+        System.out.printf("A(z) %s pont tavolsaga az origotol: %s ponttol %.3f",p2 ,p3, p2.tavolsag(p3));
     }
 }
