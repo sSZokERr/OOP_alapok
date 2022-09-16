@@ -10,6 +10,6 @@ public class Main {
 
         System.out.println(p1);
         System.out.println(p2);
-        System.out.println(p3);
+        System.out.printf("A(z) %s pont tavolsaga az origotol: %.3f",p3, p3.getTavolsagAzOrigotol());
     }
 }
