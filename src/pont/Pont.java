@@ -45,6 +45,6 @@ public class Pont {
     }
 
     public double getTavolsagAzOrigotol(){
-
+            return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
     }
 }
